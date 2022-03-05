@@ -1,0 +1,2 @@
+rootProject.name = "Timetable54"
+include ':app'
