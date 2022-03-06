@@ -9,6 +9,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="1dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,9 +36,11 @@
                 android:id="@+id/tv_item_lesson_time"
                 android:layout_width="120dp"
                 android:layout_height="15dp"
+                android:layout_marginTop="8dp"
                 android:fontFamily="@font/comfortaa_bold"
                 android:text="9:00 - 20:00"
                 android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/tv_item_lesson_number"
                 app:layout_constraintTop_toBottomOf="@+id/tv_item_lesson_name" />
 
@@ -56,12 +59,12 @@
 
             <TextView
                 android:id="@+id/tv_item_lesson_teacher"
-                android:layout_width="wrap_content"
-                android:layout_height="35dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="@font/comfortaa_bold"
                 android:text="Смирнова/Васильев"
                 android:textColor="#000000"
-                android:textSize="12sp"
+                android:textSize="13sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/tv_item_lesson_name"
                 app:layout_constraintTop_toTopOf="parent"
@@ -71,6 +74,7 @@
                 android:id="@+id/tv_item_lesson_cabinet"
                 android:layout_width="wrap_content"
                 android:layout_height="15dp"
+                android:layout_marginTop="8dp"
                 android:fontFamily="@font/comfortaa_bold"
                 android:text="30в"
                 android:textSize="10sp"
